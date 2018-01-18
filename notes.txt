@@ -1,0 +1,17 @@
+Language used is Python2. 
+External libraries used are Pandas, Numpy and sci-kit learn machine learning library
+
+#####Implementation#####
+It took me around 15 hours on this project
+
+-> After normalizing the data, I changed few features such as ["Median home value", "Median age", "Per capita income"] to categorized variables based on quarter median ranges.
+ 
+-> Then I removed few features such as "Total households","Average household size","House hold growth" as experimenting with the feature set showed negative impact from them/ the features seemed replicated
+
+-> I also used Principal component analysis to reduce the dimension of the feature set for optimal performance
+
+->I then chose models such as Support Vector Machines, Random Forests, Multi layer perceptron, Gaussian Naive Bayes. I ran these models several times and found the optimized hyper parameters.
+
+-> The model with highest accuracy is then chosen for make_predictions.py
+
+Given more time I would play more with hyper parameters and also try building more useful features and I would have also optimized the system based on cross validation scores.
